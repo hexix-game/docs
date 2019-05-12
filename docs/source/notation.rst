@@ -100,7 +100,5 @@ the one above. Maybe including move numbers should be standard when recording ga
 
 If you are interested in trying out this notation with others who play Hexix, or want to help build and refine this notation with improvements
 like the ones above, there is actually a Discord server with channels for excactly those sorts of things! For those interested,
-here is the link to the server (passed through hexix.net in case the invite link itself changes in the future):
-
-http://qr-discord.hexix.net
+here is the link to the server: `discord.hexix.net <http://discord.hexix.net>`_
 
