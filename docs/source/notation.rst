@@ -16,7 +16,7 @@ Hexix notation uses the coordinate system pictured below.
 |
 
 .. image:: images/notation-coordinates.png
-    :scale: 50%
+    :scale: 37%
     :alt: Diagram showing Hexix notation coordinate system. Looking at the board from the blue players perspective, columns are labeled A
           through G left to right. The closest hexagon in each column forms row 1. Rows count upwards as they get further from the blue player.
           Rows form a slight "V" shape. This "V" shape combined with the shape of the board means that column D has 6 total rows, 
