@@ -1,5 +1,5 @@
-D2<    D5<
+D2v    D5v
 D2+    D5+
-D3<    D4<
+D3v    D4v
 D3+    D4+
-E3>    D4E3
+E3^    D4E3

@@ -42,12 +42,12 @@ For the three different types of moves in Hexix, the notation is as follows:
 Place
 -----
 
-``C1<`` indicates a placement on the hexagon ``C1`` with the type of piece that captures any piece less than itself, indicated with ``<``.
+``C1v`` indicates a placement on the hexagon ``C1`` with a down piece that captures any piece with a number less than itself, indicated with ``v``.
 This is the **color** piece for third-edition games, or the **solid** piece for the BostonFIG edition. Pieces that capture greater than itself are
-shown with ``>`` and look like ``C1>``.
+shown with ``^`` and look like ``C1^``.
 
 As a quick example, if you are starting a new game, the first move will always be one of these six moves:
-``C1<`` ``C1>`` ``D2<`` ``D2>`` ``E1<`` ``E1>``. They are all centered around blue's home piece on ``D1`` since blue always starts first!
+``C1v`` ``C1^`` ``D2v`` ``D2^`` ``E1v`` ``E1^``. They are all centered around blue's home piece on ``D1`` since blue always starts first!
 
 
 Increment
@@ -55,7 +55,7 @@ Increment
 
 ``C1+`` indicates incrementing a piece already on ``C1`` by 1.
 
-For example, if a new game has been started and blue moved ``C1<``, and red moved ``E5<``, blue now has the option of moving ``C1+`` to increment
+For example, if a new game has been started and blue moved ``C1v``, and red moved ``E5v``, blue now has the option of moving ``C1+`` to increment
 the piece blue has on ``C1``.
 
 
@@ -76,12 +76,12 @@ openings, puzzle solutions, or pieces of larger games using the following struct
 
 Sequences of moves are recorded vertically in two columns, the left column for blue's moves and the right for red's.
 
-Here is an example of an opening where both players have built straight towards thier opponent. When they meet, blue threatens with a ``>``
+Here is an example of an opening where both players have built straight towards thier opponent. When they meet, blue threatens with a ``^``
 piece before being captured by red:
 
 .. literalinclude:: textblocks/opening-game-snippet.txt
 
-Similar to algebraic chess notation, single moves in the context of a game can be written as simply ``D2<`` for blue, and ``...D5<`` for red.
+Similar to algebraic chess notation, single moves in the context of a game can be written as simply ``D2v`` for blue, and ``...D5v`` for red.
 
 Here is an example of a full game, with dividers every five lines for easier reading. This was a game played between two new players
 figuring out how the game works. This record also includes some commentary made after the fact, borrowing ``??`` from algebraic chess notation
@@ -94,8 +94,8 @@ to mean that the move was considered a blunder by the person who provided this c
 Imrovements
 ===========
 
-Hexix notation is still very new, and likely has many areas that could be improved! For example, maybe placement moves like ``D2<`` could have
-numbers after them to indicate the number of the piece that was placed, like ``D2<1``, just to aid comprehension when reading back a game like
+Hexix notation is still very new, and likely has many areas that could be improved! For example, maybe placement moves like ``D2v`` could have
+numbers after them to indicate the number of the piece that was placed, like ``D2v1``, just to aid comprehension when reading back a game like
 the one above. Maybe including move numbers should be standard when recording games!
 
 If you are interested in trying out this notation with others who play Hexix, or want to help build and refine this notation with improvements
