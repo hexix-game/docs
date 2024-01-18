@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = u'Hexix Documentation'
-copyright = u'2019, Hexix'
+copyright = u'2024, Hexix'
 author = u'Hexix'
 
 # The short X.Y version
