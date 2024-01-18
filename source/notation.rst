@@ -43,7 +43,7 @@ Place
 -----
 
 ``C1v`` indicates a placement on the hexagon ``C1`` with a down piece that captures any piece with a number less than itself, indicated with ``v``.
-This is the **color** piece for third-edition games, or the **solid** piece for the BostonFIG edition. Pieces that capture greater than itself are
+This is the **color** piece for third-edition games, or the **solid** piece for the BostonFIG edition. Up pieces that capture greater than itself are
 shown with ``^`` and look like ``C1^``.
 
 As a quick example, if you are starting a new game, the first move will always be one of these six moves:
